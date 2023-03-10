@@ -1,2 +1,9 @@
 # some private folders
 passwordstore
+
+# ides
+.idea
+.vscode
+
+# virtualenvs
+venv

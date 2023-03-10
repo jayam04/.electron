@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from linux_setup import linux_setup
 from windows_setup import windows_setup
 
@@ -18,7 +20,7 @@ while os not in ["1", "2", "linux", "windows"]:
 
 print("Working on", os_names[os])
 
-if (os == "linux"):
+if os_names[os] == "Linux":
 	linux_setup()
-elif (os == "windows"):
+elif os_names[os] == "Windows":
 	windows_setup()
