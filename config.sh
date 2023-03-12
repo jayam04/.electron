@@ -7,9 +7,9 @@ export ELECTRON=~/.electron
 # applications
 
 # nodejs
-export PATH=$PATH:/home/jayam/Applications/node-v18.14.2-linux-x64/bin
+export PATH=$PATH:$HOME/Applications/node-v18.14.2-linux-x64/bin
 # solana cli
-export PATH="/home/jayam/.local/share/solana/install/active_release/bin:$PATH"
+export PATH=$PATH:$HOME/.local/share/solana/install/active_release/bin
 
 
 
