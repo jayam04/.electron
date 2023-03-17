@@ -7,9 +7,11 @@ export ELECTRON=~/.electron
 # applications
 
 # nodejs
-export PATH=$PATH:$HOME/Applications/node-v18.14.2-linux-x64/bin
+export PATH=$PATH:$HOME/Applications/node/bin
 # solana cli
 export PATH=$PATH:$HOME/.local/share/solana/install/active_release/bin
+# jdk 19
+export PATH=$PATH:$HOME/Applications/jdk-19.0.2/bin
 
 
 
