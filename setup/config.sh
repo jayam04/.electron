@@ -1,6 +1,6 @@
 # passwordstore dir
-export PASSWORD_STORE_DIR=$ELECTRON!/passwordstore
+export PASSWORD_STORE_DIR=$ELECTRON/passwordstore
 
 
 # codehub dir
-export CODEHUB_DIR=~/CodeHub
+export CODEHUB_DIR=~/codehub

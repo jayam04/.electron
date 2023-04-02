@@ -1,36 +1,36 @@
 {
-	"setup": {
-		"delete_setup_files": true,
-		"delete_readme": false
-	},
-	"config": {
-		"electron_folder": {
-			"path": "$HOME/.electron",
-			"path_variable": "ELECTRON"
-		},
-		"applications_folder": {
-			"path": "$ELECTRON/Applications",
-			"path_variable": null
-		},
-		"config_file": {
-			"name": ".configrc",
-			"default_file": "$pwd/setup/config.sh"
-		}
-	},
-	"external": {
-		"add_config_file": {
-			"to_bashrc": true,
-			"to_zshrc": true
-		}
-	},
-	"others": {
-		"default_appimage_location": "$ELECTRON/Applications/AppImages"
-	},
-	"app_installs": {
-		"google-chrome": "latest",
-		"brave-browser": "latest",
-		"signal": "latest",
-		"obsidian": "appimage/latest"
-	},
-	"system_startup_script": "$pwd/startup/main.sh"
+    "setup": {
+        "delete_setup_files": true,
+        "delete_readme": false
+    },
+    "config": {
+        "electron_folder": {
+            "path": "$HOME/.electron",
+            "path_variable": "ELECTRON"
+        },
+        "applications_folder": {
+            "path": "$ELECTRON/applications",
+            "path_variable": null
+        },
+        "config_file": {
+            "name": ".configrc",
+            "default_file": "$pwd/setup/config.sh"
+        }
+    },
+    "external": {
+        "add_config_file": {
+            "to_bashrc": true,
+            "to_zshrc": true
+        }
+    },
+    "others": {
+        "default_appimage_location": "$ELECTRON/Applications/AppImages"
+    },
+    "app_installs": {
+        "google-chrome": "latest",
+        "brave-browser": "latest",
+        "signal": "latest",
+        "obsidian": "appimage/latest"
+    },
+    "system_startup_script": "$pwd/startup/main.sh"
 }
