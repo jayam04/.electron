@@ -7,3 +7,6 @@ passwordstore
 
 # virtualenvs
 venv
+
+# private keys
+*.key
