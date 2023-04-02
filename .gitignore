@@ -1,5 +1,6 @@
-# some private folders
+# some private folders & keys
 passwordstore
+*.key
 
 # ides
 .idea
@@ -8,5 +9,5 @@ passwordstore
 # virtualenvs
 venv
 
-# private keys
-*.key
+# other services
+.debris
