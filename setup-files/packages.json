@@ -1,0 +1,26 @@
+{
+    "appimages": [
+        "jetbrains_toolbox"
+    ],
+    "apt_packages": [
+        "brave",
+        "chrome",
+        "edge",
+        "flatpack",
+        "github_cli",
+        "signal",
+        "snap",
+        "touchegg"
+    ],
+    "flatpak_packages": [
+        "flathub",
+        "joseexposito.touche"
+    ],
+    "snap_packages": [
+        "telegram",
+        "vscode"
+    ],
+    "source_codes": [
+        "oracle-jdk20"
+    ]
+}

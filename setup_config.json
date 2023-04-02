@@ -26,11 +26,5 @@
     "others": {
         "default_appimage_location": "$ELECTRON/Applications/AppImages"
     },
-    "app_installs": {
-        "google-chrome": "latest",
-        "brave-browser": "latest",
-        "signal": "latest",
-        "obsidian": "appimage/latest"
-    },
-    "system_startup_script": "$pwd/startup/main.sh"
+    "system_startup_script": "$pwd/startup/startup.py"
 }
