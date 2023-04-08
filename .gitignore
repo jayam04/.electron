@@ -11,3 +11,6 @@ venv
 
 # other services
 .debris
+
+# applications
+applications

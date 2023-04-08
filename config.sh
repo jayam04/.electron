@@ -32,9 +32,12 @@ export CODEM=~/CodeHub/myself
 alias codep="cd $CODEP"
 alias codel="cd $CODEL"
 alias codem="cd $CODEM"
+alias postman="~/Applications/Postman/Postman"
 
 
 
+# applications dir
+export APPLICATIONS="${ELECTRON}/applications"
 # passwordstore dir
 export PASSWORD_STORE_DIR=~/.electron/passwordstore
 
