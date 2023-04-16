@@ -21,6 +21,7 @@
         "vscode"
     ],
     "source_codes": [
-        "oracle-jdk20"
+        "oracle-jdk20",
+	"postman"
     ]
 }
