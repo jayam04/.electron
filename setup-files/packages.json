@@ -18,10 +18,11 @@
     ],
     "snap_packages": [
         "telegram",
-        "vscode"
+        "vscode",
+        "nordpass"
     ],
     "source_codes": [
         "oracle-jdk20",
-	"postman"
+	    "postman"
     ]
 }

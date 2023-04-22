@@ -4,3 +4,7 @@ export PASSWORD_STORE_DIR=$ELECTRON/passwordstore
 
 # codehub dir
 export CODEHUB_DIR=~/codehub
+
+
+# temp config.sh
+source "$HOME/.electron/config.sh"
