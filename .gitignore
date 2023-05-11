@@ -12,5 +12,6 @@ venv
 # other services
 .debris
 
-# applications
+# others
 applications
+tmp
