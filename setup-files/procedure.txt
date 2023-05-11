@@ -1,0 +1,6 @@
+1. installed git
+2. cloned github repository
+3. installed chrome, brave, edge
+4. installed vscode, vim
+5. installed jetbrains-toolbox
+6. installed nodejs, jdk
