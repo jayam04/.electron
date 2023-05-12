@@ -11,3 +11,5 @@ source "$ELECTRON/config.sh"
 export PATH=$PATH:$APPLICATIONS_FOLDER/node-v18.16.0/bin
 # JDK 20
 export PATH=$PATH:/home/jayam/.electron/applications/jdk-20.0.1/bin
+# firebase tools linux
+export PATH=$PATH:/home/jayam/.electron/applications/firebase-tools-linux
