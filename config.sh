@@ -45,3 +45,4 @@ export PASSWORD_STORE_DIR=~/.electron/passwordstore
 
 # sub scripts
 
+export APPLICATIONS=$APPLICATIONS_FOLDER
