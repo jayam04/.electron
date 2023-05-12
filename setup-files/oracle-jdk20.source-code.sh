@@ -9,6 +9,6 @@ echo "Adding JDK to PATH ..."
 DIR=$(find $APPLICATIONS_FOLDER . -maxdepth 1 -type d -name jdk-20\* -print | head -n1)
 echo "Files saved in $DIR"
 echo "# JDK 20" >> $ELECTRON_CONFIGRC
-echo "PATH=$PATH:$DIR/bin" >> $ELECTRON_CONFIGRC
+echo "export PATH=\$PATH:$DIR/bin" >> $ELECTRON_CONFIGRC
 
 echo "Finished JDK-20 Setup"

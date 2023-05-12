@@ -6,5 +6,8 @@ source "$ELECTRON/config.sh"
 
 
 # automated additions ---
+
+# Node.js 18.16.0
+export PATH=$PATH:$APPLICATIONS_FOLDER/node-v18.16.0/bin
 # JDK 20
-PATH=/home/jayam04/.local/share/solana/install/active_release/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jayam/Applications/node/bin:/home/jayam/.local/share/solana/install/active_release/bin:/home/jayam/Applications/jdk-19.0.2/bin:/home/jayam/Applications/pypy3.9-v7.3.11-linux64/bin:/home/jayam/.cargo/env:/home/jayam/.electron/applications/jdk-20*/bin::::/home/jayam/.electron/applications/jdk-20.0.1/bin
+export PATH=$PATH:/home/jayam/.electron/applications/jdk-20.0.1/bin
