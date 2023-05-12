@@ -13,7 +13,7 @@ rm node-v18.16.0-linux-x64.tar.xz
 mv node-v18.16.0-linux-x64 node-v18.16.0
 
 # Add Node.js to the system PATH
-echo "Adding Node.js to PATH"
+echo "Adding Node.js to PATH ..."
 echo '# Node.js 18.16.0' >> $ELECTRON_CONFIGRC
 echo "export PATH=\$PATH:$APPLICATIONS_FOLDER/node-v18.16.0/bin" >> $ELECTRON_CONFIGRC
 
