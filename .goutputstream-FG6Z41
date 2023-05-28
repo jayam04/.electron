@@ -6,7 +6,7 @@ export ELECTRON_SECRET=$HOME/Dropbox/electron
 source "$ELECTRON/config.sh"
 
 # passwordstore
-export PASSWORD_STORE_DIR=$ELECTRON_SECRET/passwordstore
+export  PASSWORD_STORE_DIR=$ELECTRON_SECRET/passwordstore
 # automated additions ---
 
 # Node.js 18.16.0

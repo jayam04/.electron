@@ -8,3 +8,4 @@ export CODEHUB_DIR=~/codehub
 
 # temp config.sh
 source "$HOME/.electron/config.sh"
+export PATH=$PATH:/usr/local/texlive/2023/bin/x86_64-linux
