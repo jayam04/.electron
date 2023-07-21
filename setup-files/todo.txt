@@ -1,0 +1,6 @@
+todo
+````
+
+1. nvm
+	link / script : curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+	problem : adds path to bashrc, zshrc and not electronrc

@@ -6,7 +6,7 @@ export ELECTRON_SECRET=$HOME/Dropbox/electron
 source "$ELECTRON/config.sh"
 
 # passwordstore
-export PASSWORD_STORE_DIR=$ELECTRON_SECRET/passwordstore
+export PASSWORD_STORE_DIR=$HOME/Vault/passwordstore
 # automated additions ---
 
 # Node.js 18.16.0
@@ -15,3 +15,21 @@ export PATH=$PATH:$APPLICATIONS_FOLDER/node-v18.16.0/bin
 export PATH=$PATH:/home/jayam/.electron/applications/jdk-20.0.1/bin
 # firebase tools linux
 export PATH=$PATH:/home/jayam/.electron/applications/firebase-tools-linux
+# todo.txt
+alias todo="$HOME/Applications/todo-txt/todo.sh -P"
+# dropboxignore
+alias dropboxignore='flatpak run me.simakis.dropboxignore'
+# Node.js 18.16.0
+export PATH=$PATH:/home/jayam/Applications/node-v18.16.0/bin
+# Node.js 18.16.0
+export PATH=$PATH:/home/jayam/Applications/node-v18.16.0/bin
+# Node.js 18.17.0
+export PATH=$PATH:/home/jayam/Applications/node-v18.17.0/bin
+# Node.js 18.17.0
+export PATH=$PATH:/home/jayam/Applications/node-v18.17.0/bin
+# Node.js 18.17.0
+export PATH=$PATH:/home/jayam/.electron/applications/node-v18.17.0/bin
+# Node.js 18.17.0
+export PATH=$PATH:/home/jayam/.electron/applications/node-v18.17.0/bin
+# Node.js 18.17.0
+export PATH=$PATH:/home/jayam/Applications/node-v18.17.0/bin
