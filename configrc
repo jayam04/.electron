@@ -19,17 +19,7 @@ export PATH=$PATH:/home/jayam/.electron/applications/firebase-tools-linux
 alias todo="$HOME/Applications/todo-txt/todo.sh -P"
 # dropboxignore
 alias dropboxignore='flatpak run me.simakis.dropboxignore'
-# Node.js 18.16.0
-export PATH=$PATH:/home/jayam/Applications/node-v18.16.0/bin
-# Node.js 18.16.0
-export PATH=$PATH:/home/jayam/Applications/node-v18.16.0/bin
 # Node.js 18.17.0
 export PATH=$PATH:/home/jayam/Applications/node-v18.17.0/bin
-# Node.js 18.17.0
-export PATH=$PATH:/home/jayam/Applications/node-v18.17.0/bin
-# Node.js 18.17.0
-export PATH=$PATH:/home/jayam/.electron/applications/node-v18.17.0/bin
-# Node.js 18.17.0
-export PATH=$PATH:/home/jayam/.electron/applications/node-v18.17.0/bin
-# Node.js 18.17.0
-export PATH=$PATH:/home/jayam/Applications/node-v18.17.0/bin
+# JDK 20
+export PATH=$PATH:/home/jayam/Applications/jdk-20.0.2/bin
